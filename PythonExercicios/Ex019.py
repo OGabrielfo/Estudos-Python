@@ -1,6 +1,4 @@
-import random
+from random import choice
 
 alunos = ['João', 'Gabriel', 'Julia', 'Maria']
-i = random.randint(0, 3)
-
-print('{} deverá apagar o quadro!'.format(alunos[i]))
+print('{} deverá apagar o quadro!'.format(choice(alunos)))
